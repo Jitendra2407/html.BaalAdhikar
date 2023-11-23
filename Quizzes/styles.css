@@ -1,0 +1,80 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #008080; /* Teal color */
+}
+
+h2 {
+  text-align: center;
+  color: #800080; /* Purple color */
+}
+
+.quiz-container, .puzzle-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Word Search grid styles */
+.word-search-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 40px);
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.word-search-cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #ffcc66; /* Yellow color */
+  border: 1px solid #ccc;
+  font-weight: bold;
+}
+
+/* Crossword grid styles */
+.crossword-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 40px);
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.crossword-cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #66ccff; /* Blue color */
+  border: 1px solid #ccc;
+  font-weight: bold;
+}
